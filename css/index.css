@@ -1,3 +1,109 @@
 body {
-background: #f8cccf;
+  background: #f8cccf;
+}
+.d-block{
+  
+  height: 1228px;
+}
+#grid{
+  background-color: #188904;
+  display:grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 200px 200px auto;
+}
+.grid-item{
+  background-color: white;
+  font: size 20px;
+  text-align:center;
+  padding: 20px;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#container > div {
+background-color: #3bd320;
+font-size: 20px;
+margin: 20px;
+padding: 20px;
+width: 200px;
+
+
+}
+
+a {
+  list-style: none;
+  color: azure;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+@media (max-width: 599px) {
+  body {
+    background-color: rgb(242, 245, 245);
+  }
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  background-color: #178105;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+ul > li {
+  color: #cd5104;
+}
+
+ol > li {
+  color: #178105;
+}
+
+h1 {
+  color: rgb(8, 44, 224);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+/* div {
+  width: 700px;
+  height: 150px;
+  background-color: aqua;
+  padding: 20px;
+  margin: 20px;
+} */
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+#foo,
+#baar {
+  color: azure;
+}
+
+.bazz {
+  color: #a80712;
 }
